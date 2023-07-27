@@ -11,6 +11,7 @@ import net.minecraft.world.item.CreativeModeTab;
 public class ZhanshenModTabs {
 	public static CreativeModeTab TAB_DOMAIN;
 	public static CreativeModeTab TAB_PROHIBITED_SUBSTANCE;
+	public static CreativeModeTab TAB_ARTIFACT;
 
 	public static void load() {
 		TAB_DOMAIN = new CreativeModeTab("tabdomain") {
@@ -28,6 +29,17 @@ public class ZhanshenModTabs {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(Blocks.BARRIER);
+			}
+
+			@Override
+			public boolean hasSearchBar() {
+				return true;
+			}
+		}.setBackgroundSuffix("item_search.png");
+		TAB_ARTIFACT = new CreativeModeTab("tabartifact") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(ZhanshenModItems.MURAKUMO.get());
 			}
 
 			@Override

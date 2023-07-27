@@ -1,6 +1,14 @@
 {
-  "parent": "item/handheld",
+  "parent": "zhanshen:custom/murakumo",
   "textures": {
-    "layer0": "zhanshen:items/murakumo"
+    "11": "zhanshen:blocks/mk_blade_sharp_t",
+    "12": "zhanshen:blocks/mk_shank_bottom",
+    "13": "zhanshen:blocks/mk_shank_main",
+    "14": "zhanshen:blocks/mk_shank_middle",
+    "15": "zhanshen:blocks/mk_shank_top",
+    "8": "zhanshen:blocks/mk_blade_main",
+    "9": "zhanshen:blocks/mk_blade_sharp_l",
+    "10": "zhanshen:blocks/mk_blade_sharp_r",
+    "particle": "zhanshen:items/murakumo"
   }
 }

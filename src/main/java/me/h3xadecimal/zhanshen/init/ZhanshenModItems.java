@@ -18,8 +18,8 @@ import me.h3xadecimal.zhanshen.ZhanshenMod;
 
 public class ZhanshenModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ZhanshenMod.MODID);
-	public static final RegistryObject<Item> MURAKUMO = REGISTRY.register("murakumo", () -> new MurakumoItem());
 	public static final RegistryObject<Item> NW_BADAGE = REGISTRY.register("nw_badage", () -> new NWBadageItem());
 	public static final RegistryObject<Item> IMMORTAL_DOMAIN = REGISTRY.register("immortal_domain", () -> new ImmortalDomainItem());
 	public static final RegistryObject<Item> STARSHINE_SABER = REGISTRY.register("starshine_saber", () -> new StarshineSaberItem());
+	public static final RegistryObject<Item> MURAKUMO = REGISTRY.register("murakumo", () -> new MurakumoItem());
 }

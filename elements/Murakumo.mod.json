@@ -2,33 +2,26 @@
   "_fv": 43,
   "_type": "tool",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "murakumo",
-    "customModelName": "Normal",
+    "customModelName": "murakumo:default",
     "name": "Murakumo",
-    "specialInfo": [
-      "无物不可斩",
-      "实际伤害1000,无视一切护甲",
-      "目标带有不朽时伤害减半"
-    ],
+    "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Artifact"
     },
     "toolType": "Sword",
-    "harvestLevel": 0,
-    "efficiency": 0.0,
-    "attackSpeed": 1.0,
-    "enchantability": 2,
-    "damageVsEntity": 0.0,
-    "usageCount": 100,
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 3.0,
+    "enchantability": 15,
+    "damageVsEntity": 1000.0,
+    "usageCount": 0,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onEntityHitWith": {
-      "name": "MurakumoAttack"
-    }
+    "damageOnCrafting": false
   }
 }

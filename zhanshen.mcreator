@@ -45,7 +45,7 @@
           }
         ]
       },
-      "path": "~/PotionGem"
+      "path": "~/PotionEffect"
     },
     {
       "name": "DemonGuideStart",
@@ -65,7 +65,7 @@
           }
         ]
       },
-      "path": "~/PotionGem"
+      "path": "~/PotionEffect"
     },
     {
       "name": "DemonGuide",
@@ -79,7 +79,7 @@
           "src/main/java/me/h3xadecimal/zhanshen/potion/DemonGuideMobEffect.java"
         ]
       },
-      "path": "~/PotionGem"
+      "path": "~/PotionEffect"
     },
     {
       "name": "NWBadageUse",
@@ -209,7 +209,7 @@
           "src/main/java/me/h3xadecimal/zhanshen/potion/ImmortalMobEffect.java"
         ]
       },
-      "path": "~/PotionGem/Immortal"
+      "path": "~/PotionEffect/Immortal"
     },
     {
       "name": "TImmortalOnAttack",
@@ -237,22 +237,7 @@
           }
         ]
       },
-      "path": "~/PotionGem/Immortal"
-    },
-    {
-      "name": "Murakumo",
-      "type": "tool",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "murakumo",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/zhanshen/models/item/murakumo.json",
-          "src/main/java/me/h3xadecimal/zhanshen/item/MurakumoItem.java"
-        ]
-      },
-      "path": "~/Items/Domain"
+      "path": "~/PotionEffect/Immortal"
     },
     {
       "name": "Domain",
@@ -319,7 +304,7 @@
           }
         ]
       },
-      "path": "~/PotionGem"
+      "path": "~/PotionEffect"
     },
     {
       "name": "StarshineSaber",
@@ -335,6 +320,33 @@
         ]
       },
       "path": "~/Items/NightWatchman"
+    },
+    {
+      "name": "Artifact",
+      "type": "tab",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artifact",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tabs"
+    },
+    {
+      "name": "Murakumo",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "murakumo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zhanshen/models/item/murakumo.json",
+          "src/main/java/me/h3xadecimal/zhanshen/item/MurakumoItem.java"
+        ]
+      },
+      "path": "~/Items/Artifact"
     }
   ],
   "variable_elements": [],
@@ -345,6 +357,7 @@
       "effect.zhanshen.demon_guide": "Demon Guide",
       "itemGroup.tabdomain": "Domain",
       "effect.zhanshen.immortal": "Immortal",
+      "itemGroup.tabartifact": "Artifact",
       "itemGroup.tabprohibited_substance": "Prohibited Substance",
       "item.zhanshen.nw_badage": "NightWatchman Badage",
       "item.zhanshen.immortal_domain": "Immortal",
@@ -357,11 +370,12 @@
       "effect.zhanshen.demon_guide": "鬼神引",
       "itemGroup.tabdomain": "禁墟",
       "effect.zhanshen.immortal": "不朽",
+      "itemGroup.tabartifact": "神器",
       "itemGroup.tabprohibited_substance": "禁物",
       "item.zhanshen.nw_badage": "守夜人徽章",
       "item.zhanshen.immortal_domain": "不朽",
       "enchantment.zhanshen.saber_rule": "法则·剑",
-      "item.zhanshen.murakumo": "天丛云剑",
+      "item.zhanshen.murakumo": "天丛云",
       "item.zhanshen.starshine_saber": "星辰刀"
     }
   },
@@ -398,7 +412,7 @@
         "children": []
       },
       {
-        "name": "PotionGem",
+        "name": "PotionEffect",
         "children": [
           {
             "name": "Immortal",
