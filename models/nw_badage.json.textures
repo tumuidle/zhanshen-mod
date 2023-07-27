@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "frame_b",
+        "1": "frame_b",
+        "2": "frame_b",
+        "3": "frame_b",
+        "4": "board",
+        "5": "dg_pin"
+      },
+      "name": "default"
+    }
+  }
+}

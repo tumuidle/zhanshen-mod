@@ -1,0 +1,11 @@
+{
+  "parent": "zhanshen:custom/starshine_saber",
+  "textures": {
+    "0": "zhanshen:blocks/blade",
+    "1": "zhanshen:blocks/blade_sharp",
+    "2": "zhanshen:blocks/shank_top",
+    "3": "zhanshen:blocks/attachment",
+    "4": "zhanshen:blocks/shank_main",
+    "particle": "zhanshen:items/starshine_saber"
+  }
+}

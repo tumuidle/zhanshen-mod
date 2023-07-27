@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "blade",
+        "1": "blade_sharp",
+        "2": "shank_top",
+        "3": "attachment",
+        "4": "shank_main"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "zhanshen:custom/nw_badage",
+  "textures": {
+    "0": "zhanshen:blocks/frame_b",
+    "1": "zhanshen:blocks/frame_b",
+    "2": "zhanshen:blocks/frame_b",
+    "3": "zhanshen:blocks/frame_b",
+    "4": "zhanshen:blocks/board",
+    "5": "zhanshen:blocks/dg_pin",
+    "particle": "zhanshen:items/nw_badage"
+  }
+}

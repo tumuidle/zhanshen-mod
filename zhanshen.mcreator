@@ -1,0 +1,447 @@
+{
+  "mod_elements": [
+    {
+      "name": "ProhibitedSubstance",
+      "type": "tab",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prohibited_substance",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tabs"
+    },
+    {
+      "name": "NWBadage",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nw_badage",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zhanshen/models/item/nw_badage.json",
+          "src/main/java/me/h3xadecimal/zhanshen/item/NWBadageItem.java"
+        ]
+      },
+      "path": "~/Items/NightWatchman"
+    },
+    {
+      "name": "DemonGuideAfter",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demon_guide_after",
+      "metadata": {
+        "files": [
+          "src/main/java/me/h3xadecimal/zhanshen/procedures/DemonGuideAfterProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/PotionGem"
+    },
+    {
+      "name": "DemonGuideStart",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demon_guide_start",
+      "metadata": {
+        "files": [
+          "src/main/java/me/h3xadecimal/zhanshen/procedures/DemonGuideStartProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/PotionGem"
+    },
+    {
+      "name": "DemonGuide",
+      "type": "potioneffect",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demon_guide",
+      "metadata": {
+        "files": [
+          "src/main/java/me/h3xadecimal/zhanshen/potion/DemonGuideMobEffect.java"
+        ]
+      },
+      "path": "~/PotionGem"
+    },
+    {
+      "name": "NWBadageUse",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nw_badage_use",
+      "metadata": {
+        "files": [
+          "src/main/java/me/h3xadecimal/zhanshen/procedures/NWBadageUseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/NightWatchman"
+    },
+    {
+      "name": "SaberRule",
+      "type": "enchantment",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saber_rule",
+      "metadata": {
+        "files": [
+          "src/main/java/me/h3xadecimal/zhanshen/enchantment/SaberRuleEnchantment.java"
+        ]
+      },
+      "path": "~/Enchantment/SaberRule"
+    },
+    {
+      "name": "TSaberRuleAttack",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_saber_rule_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/me/h3xadecimal/zhanshen/procedures/TSaberRuleAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchantment/SaberRule"
+    },
+    {
+      "name": "TimeRule",
+      "type": "enchantment",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time_rule",
+      "metadata": {
+        "files": [
+          "src/main/java/me/h3xadecimal/zhanshen/enchantment/TimeRuleEnchantment.java"
+        ]
+      },
+      "path": "~/Enchantment/TimeRule"
+    },
+    {
+      "name": "TTimeRuleAttack",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_time_rule_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/me/h3xadecimal/zhanshen/procedures/TTimeRuleAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchantment/TimeRule"
+    },
+    {
+      "name": "MurakumoAttack",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "murakumo_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/me/h3xadecimal/zhanshen/procedures/MurakumoAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Artifact"
+    },
+    {
+      "name": "Immortal",
+      "type": "potioneffect",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immortal",
+      "metadata": {
+        "files": [
+          "src/main/java/me/h3xadecimal/zhanshen/potion/ImmortalMobEffect.java"
+        ]
+      },
+      "path": "~/PotionGem/Immortal"
+    },
+    {
+      "name": "TImmortalOnAttack",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_immortal_on_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/me/h3xadecimal/zhanshen/procedures/TImmortalOnAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/PotionGem/Immortal"
+    },
+    {
+      "name": "Murakumo",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "murakumo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zhanshen/models/item/murakumo.json",
+          "src/main/java/me/h3xadecimal/zhanshen/item/MurakumoItem.java"
+        ]
+      },
+      "path": "~/Items/Domain"
+    },
+    {
+      "name": "Domain",
+      "type": "tab",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "domain",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tabs"
+    },
+    {
+      "name": "ImmortalInInventory",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immortal_in_inventory",
+      "metadata": {
+        "files": [
+          "src/main/java/me/h3xadecimal/zhanshen/procedures/ImmortalInInventoryProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Domain"
+    },
+    {
+      "name": "ImmortalDomain",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immortal_domain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zhanshen/models/item/immortal_domain.json",
+          "src/main/java/me/h3xadecimal/zhanshen/item/ImmortalDomainItem.java"
+        ]
+      },
+      "path": "~/Items/Domain"
+    },
+    {
+      "name": "DemonGuideTick",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demon_guide_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/me/h3xadecimal/zhanshen/procedures/DemonGuideTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/PotionGem"
+    },
+    {
+      "name": "StarshineSaber",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starshine_saber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zhanshen/models/item/starshine_saber.json",
+          "src/main/java/me/h3xadecimal/zhanshen/item/StarshineSaberItem.java"
+        ]
+      },
+      "path": "~/Items/NightWatchman"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "enchantment.zhanshen.time_rule": "Time Rule",
+      "effect.zhanshen.demon_guide": "Demon Guide",
+      "itemGroup.tabdomain": "Domain",
+      "effect.zhanshen.immortal": "Immortal",
+      "itemGroup.tabprohibited_substance": "Prohibited Substance",
+      "item.zhanshen.nw_badage": "NightWatchman Badage",
+      "item.zhanshen.immortal_domain": "Immortal",
+      "enchantment.zhanshen.saber_rule": "Saber Rule",
+      "item.zhanshen.murakumo": "Murakumo",
+      "item.zhanshen.starshine_saber": "Starshine Saber"
+    },
+    "zh_cn": {
+      "enchantment.zhanshen.time_rule": "法则·时间",
+      "effect.zhanshen.demon_guide": "鬼神引",
+      "itemGroup.tabdomain": "禁墟",
+      "effect.zhanshen.immortal": "不朽",
+      "itemGroup.tabprohibited_substance": "禁物",
+      "item.zhanshen.nw_badage": "守夜人徽章",
+      "item.zhanshen.immortal_domain": "不朽",
+      "enchantment.zhanshen.saber_rule": "法则·剑",
+      "item.zhanshen.murakumo": "天丛云剑",
+      "item.zhanshen.starshine_saber": "星辰刀"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "ProhibitedSubstance",
+            "children": []
+          },
+          {
+            "name": "NightWatchman",
+            "children": []
+          },
+          {
+            "name": "Artifact",
+            "children": []
+          },
+          {
+            "name": "Domain",
+            "children": []
+          },
+          {
+            "name": "Misc",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Tabs",
+        "children": []
+      },
+      {
+        "name": "PotionGem",
+        "children": [
+          {
+            "name": "Immortal",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Enchantment",
+        "children": [
+          {
+            "name": "SaberRule",
+            "children": []
+          },
+          {
+            "name": "TimeRule",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Entity",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "zhanshen",
+    "modName": "斩神",
+    "version": "0.1.0",
+    "author": "H3xadecimal, MCreator",
+    "websiteURL": "http://gg.gg/15ursw",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": false,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "me.h3xadecimal.zhanshen",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

@@ -1,0 +1,50 @@
+{
+  "_fv": 43,
+  "_type": "item",
+  "definition": {
+    "renderType": 1,
+    "texture": "nw_badage",
+    "customModelName": "nw_badage:default",
+    "name": "NightWatchman Badage",
+    "rarity": "UNCOMMON",
+    "creativeTab": {
+      "value": "CUSTOM:ProhibitedSubstance"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 10,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": true,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "若黯夜终临",
+      "吾必立于万万人前",
+      "横刀向渊",
+      "血染苍穹！"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "NWBadageUse"
+    },
+    "isFood": true,
+    "nutritionalValue": 0,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "eat"
+  }
+}

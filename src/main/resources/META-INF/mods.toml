@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="zhanshen"
+version="0.1.0"
+displayName="斩神"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="http://gg.gg/15ursw"
+authors="H3xadecimal, MCreator"
+
+[[dependencies.zhanshen]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.zhanshen]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43.2.0]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

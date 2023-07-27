@@ -1,0 +1,29 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "starshine_saber",
+    "customModelName": "starshine_saber:default",
+    "name": "Starshine Saber",
+    "specialInfo": [
+      "小子，你看好了。这一刀...会很帅"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ProhibitedSubstance"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 2.0,
+    "attackSpeed": 10.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 32767,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false
+  }
+}
